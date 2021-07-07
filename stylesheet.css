@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+}
+form {
+    width: 50%;
+    margin: 20px;
+}
+input {
+    width: 100%;
+    padding: 16px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: left;
+}
+button {
+    background-color: #42bbbf;
+    color: white;
+    padding: 14px 0;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+}
+button:hover {
+    opacity: 0.8;
+}
+.music-list {
+    margin-left: 20px;
+    height: 500px;
+    border: 2px solid #ccc;
+    display: grid;
+}
+.contents-item {
+    padding: 30px;
+}
+.btn-song {
+    width: 100px;
+}
+.song-description {
+    display: flex;
+    flex-direction: column;
+}
+.tittle-song {
+    margin-bottom: -10px;
+}
+.tittle-singer {
+    margin-bottom: -10px;
+}
+.tittle-album {
+    margin-bottom: -5px;
+    font-weight: normal;
+}
